@@ -8,6 +8,6 @@ app.get('/',(req,res) =>{
 })
 
 //port 3000
-app.listen(process.env.port,()=>{
+app.listen(process.env.PORT,()=>{
     console.log('Server is running');
 })
